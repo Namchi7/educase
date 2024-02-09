@@ -8,6 +8,7 @@
 }
 
 .App > * {
+  max-width: 425px;
   animation: 0.3s fade-in ease-out;
 }
 
