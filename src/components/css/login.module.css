@@ -1,0 +1,83 @@
+.container {
+  width: 100%;
+  /* max-width: 375px; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
+  padding: 20px;
+  padding-bottom: 41px;
+
+  & > * {
+    width: 100%;
+  }
+}
+
+.loginText {
+  font: 28px Rubik;
+  font-weight: 500;
+  color: #1d2226;
+  text-align: left;
+}
+
+.loremText {
+  font: 18px Rubik;
+  color: #1d2226;
+  opacity: 60%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
+
+  & > * {
+    width: 100%;
+  }
+}
+
+.fieldset {
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+}
+
+.label {
+  width: 103px;
+  padding: 5px;
+  margin-left: 9px;
+  font: 13px Rubik;
+  color: #6c25ff;
+}
+
+.input {
+  width: 100%;
+  border: transparent;
+  background-color: transparent;
+  padding: 11px 16px;
+  padding-top: 0;
+  outline: transparent;
+  font: 14px Rubik;
+  color: #1d2226;
+}
+
+.loginBtn {
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 0.82rem;
+  font: 16px rubik;
+  font-weight: 500;
+  text-align: center;
+  background-color: #cbcbcb;
+  color: #ffffff;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

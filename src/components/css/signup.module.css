@@ -1,0 +1,150 @@
+.container {
+  width: 100%;
+  /* max-width: 375px; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
+  padding: 20px;
+  padding-bottom: 30px;
+
+  & > * {
+    width: 100%;
+  }
+}
+
+.signupText {
+  font: 28px Rubik;
+  font-weight: 500;
+  color: #1d2226;
+  text-align: left;
+}
+
+.form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+
+  & > * {
+    width: 100%;
+  }
+}
+
+.formUp {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
+
+  & > * {
+    width: 100%;
+  }
+}
+
+.fieldset {
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+}
+
+.label {
+  width: 111px;
+  padding: 5px;
+  margin-left: 9px;
+  font: 13px Rubik;
+  color: #6c25ff;
+}
+
+.required {
+  color: #dd4a3d;
+}
+
+.input {
+  width: 100%;
+  border: transparent;
+  background-color: transparent;
+  padding: 11px 16px;
+  padding-top: 0;
+  outline: transparent;
+  font: 14px Rubik;
+  color: #1d2226;
+}
+
+.radioDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.agency {
+  font: 13px Rubik;
+  color: #1d2226;
+}
+
+.radioInputs {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 23px;
+}
+
+.radioGrp {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+
+.radio {
+  appearance: none;
+
+  width: 22px;
+  height: 22px;
+
+  background-color: transparent;
+  border-radius: 50%;
+  border: 5px solid #f7f8f9;
+  outline: 1px solid #919191;
+
+  transition: 0.2s border linear;
+
+  &:checked {
+    background-color: #6c25ff;
+    border: 5px solid #f7f8f9;
+    outline: 1px solid #642af5;
+  }
+}
+
+.radioLabel {
+  text-align: left;
+  font: 14px Rubik;
+  color: #1d2226;
+}
+
+.signupBtn {
+  align-self: flex-end;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  font: 16px rubik;
+  font-weight: 500;
+  padding: 0.82rem;
+  text-align: center;
+  background-color: #6c25ff;
+  color: #ffffff;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

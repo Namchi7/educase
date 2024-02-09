@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  /* max-width: 375px; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  padding-bottom: 41px;
+
+  & > * {
+    width: 100%;
+  }
+}
+
+.welcomeText {
+  font: 28px Rubik;
+  font-weight: 500;
+  color: #1d2226;
+  text-align: left;
+}
+
+.loremText {
+  font: 18px Rubik;
+  color: #1d2226;
+  opacity: 60%;
+  text-align: left;
+  margin-bottom: 19px;
+}
+
+.lpBtn {
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 0.82rem;
+  font: 16px Rubik;
+  font-weight: 500;
+  text-align: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.createAccount {
+  background-color: #6c25ff;
+  color: #ffffff;
+}
+
+.login {
+  background-color: #6c25ff4b;
+  color: #1d2226;
+}
